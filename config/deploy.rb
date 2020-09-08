@@ -2,7 +2,7 @@
 lock "~> 3.14.1"
 
 set :application, "iorder_server"
-set :repo_url, "git@example.com:me/my_repo.git"
+set :repo_url, "git@github.com:hainnsunasterisk/iorder_server.git"
 
 # Default branch is :master
 # ask :branch, `git rev-parse --abbrev-ref HEAD`.cho

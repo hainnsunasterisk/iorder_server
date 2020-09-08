@@ -59,3 +59,8 @@
 #     auth_methods: %w(publickey password)
 #     # password: "please use keys"
 #   }
+set :stage, :production
+set :rails_env, :production
+set :deploy_to, "/deploy/apps/iorder_server"
+set :branch, :config_deploy
+server "3.137.136.122", user: "hainn", roles: %w(web app db)
